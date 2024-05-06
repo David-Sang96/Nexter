@@ -4,6 +4,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-block: 8rem;
+  }
 }
 
 .home {
